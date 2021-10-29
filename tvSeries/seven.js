@@ -1,0 +1,13 @@
+var task = require('../model/model_task');
+
+module.exports =
+    function (req, res) {
+        res.send(
+            { "id": "3340", "id_kinopoisk": "1288698", "url": "551086-seven-worlds-one-planet-2019", "type": "tv-series", "title": "Семь миров, одна планета", "title_alternative": "Seven Worlds, One Planet", "tagline": null, "description": "повествует об особенностях местности, климата и животного мира каждого из семи континентов нашей планеты — от непроходимых джунглей Южной Америки до вечной мерзлоты Антарктиды. Уникальные кадры, снятые в изолированных уголках Земли", "year": 2019, "poster": "\/\/images.kinopoisk.cloud\/posters\/1288698.jpg", "trailer": "https:\/\/www.youtube.com\/embed\/IlFRPkT-hVc", "age": null, "actors": ["Дэвид Аттенборо", "Питер Дрост"], "countries": ["Великобритания", "Китай", "США", "Германия", "Франция"], "genres": ["Документальный"], "directors": ["Джилз Баджер", "Чадден Хантер", "Эмма Нэппер"], "screenwriters": ["Джилз Баджер", "Фреди Девас", "Ник Истон"], "producers": ["Scott Alexander", "Джонатан Килинг", "Джилз Баджер"], "operators": ["Джон Браун", "Джон Шир", "Bertie Gregory"], "composers": ["Джейкоб Ши", "Ханс Циммер"], "painters": null, "editors": ["Анджела Мэддик", "Dave Pearce", "Найджел Бак"], "budget": null, "rating_kinopoisk": "9", "rating_imdb": "9.4", "kinopoisk_votes": null, "imdb_votes": null, "fees_world": null, "fees_russia": null, "premiere_world": "27 октября 2019", "premiere_russia": null, "frames": ["https:\/\/st.kp.yandex.net\/im\/kadr\/3\/4\/5\/kinopoisk.ru-Seven-Worlds_2C-One-Planet-3454860.jpg", "https:\/\/st.kp.yandex.net\/im\/kadr\/3\/4\/5\/kinopoisk.ru-Seven-Worlds_2C-One-Planet-3454861.jpg", "https:\/\/st.kp.yandex.net\/im\/kadr\/3\/4\/5\/kinopoisk.ru-Seven-Worlds_2C-One-Planet-3454863.jpg", "https:\/\/st.kp.yandex.net\/im\/kadr\/3\/4\/5\/kinopoisk.ru-Seven-Worlds_2C-One-Planet-3454864.jpg", "https:\/\/st.kp.yandex.net\/im\/kadr\/3\/4\/5\/kinopoisk.ru-Seven-Worlds_2C-One-Planet-3454865.jpg", "https:\/\/st.kp.yandex.net\/im\/kadr\/3\/4\/5\/kinopoisk.ru-Seven-Worlds_2C-One-Planet-3454866.jpg", "https:\/\/st.kp.yandex.net\/im\/kadr\/3\/4\/5\/kinopoisk.ru-Seven-Worlds_2C-One-Planet-3454867.jpg"], "screenshots": null, "seasons": 1, "videocdn": { "url": null, "quality": null, "duration": null, "voice": null, "seasons": null, "episodes": null }, "hdvb": { "url": null, "quality": null, "duration": null, "voice": null, "seasons": null, "episodes": null }, "collapse": { "url": ["\/embed\/movie\/11728"], "quality": ["HD (720p)"], "duration": ["60 мин."], "voice": ["FocusStudio", "Eng.Original"], "seasons": null, "episodes": null }, "kodik": { "url": null, "quality": null, "duration": null, "voice": null, "seasons": null, "episodes": null } }
+        );
+    };
+
+
+
+
+

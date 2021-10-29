@@ -1,0 +1,10 @@
+var task = require('../model/model_task');
+
+module.exports =
+    function (req, res) {
+        res.send(
+            { "id": "36664", "id_kinopoisk": "1073233", "url": "173131-golubaya-planeta-2-2017", "type": "tv-series", "title": "Голубая планета 2", "title_alternative": "Blue Planet II", "tagline": "«Take a deep breath»", "description": "Несмотря на то, что вода занимает две трети планеты, о глубинах океана мы знаем меньше, чем о поверхности Луны. Сериал открывает всю красоту и очарование океана, поражая воображение многообразием его обитателей. Использование новейших технологий и уникального оборудования для глубоководных съёмок раскроют зрителю самые сокровенные тайны мирового океана и позволят увидеть редчайшие кадры из жизни его обитателей, о существовании которых ранее можно было только догадываться.", "year": 2017, "poster": "\/\/images.kinopoisk.cloud\/posters\/1073233.jpg", "trailer": null, "age": "зрителям, достигшим 12 лет", "actors": ["Дэвид Аттенборо", "Питер Дрост", "Роджер Муннс", "Франсуа Морель"], "countries": ["Великобритания"], "genres": ["Документальный"], "directors": null, "screenwriters": null, "producers": ["Марк Браунлоу", "Джеймс Хонейборн", "Jennifer Hile"], "operators": ["Роджер Хоррокс", "Тед Гиффордс", "Роджер Муннс"], "composers": ["Дэйв Флеминг", "Джейкоб Ши", "Ханс Циммер"], "painters": null, "editors": ["Мэтт Мич", "Найджел Бак"], "budget": null, "rating_kinopoisk": "9.183", "rating_imdb": "9.4", "kinopoisk_votes": "1016", "imdb_votes": "1016", "fees_world": "$205531", "fees_russia": null, "premiere_world": "29 октября 2017", "premiere_russia": null, "frames": null, "screenshots": null, "seasons": 1, "videocdn": { "url": null, "quality": null, "duration": null, "voice": ["0"], "seasons": null, "episodes": null }, "hdvb": { "url": null, "quality": null, "duration": null, "voice": null, "seasons": null, "episodes": null }, "collapse": { "url": null, "quality": null, "duration": null, "voice": null, "seasons": null, "episodes": null }, "kodik": { "url": null, "quality": null, "duration": null, "voice": null, "seasons": null, "episodes": null } }
+        );
+    };
+
+

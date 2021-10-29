@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "body-parser": "1.x",
+    "cheerio": "^0.22.0",
+    "consolidate": "0.x",
+    "cors": "^2.8.5",
+    "express": "4.x",
+    "handlebars": "2.x",
+    "mysql": "^2.12.0",
+    "request": "2.x",
+    "url": "^0.11.0"
+  }
+}

@@ -1,0 +1,883 @@
+module.exports =
+    function (req, res) {
+        res.send(
+            {
+                "tv-series": [
+                    {
+                        "id": 1399,
+                        "id_kinopoisk": 77044,
+                        "url": "265736-druzya-1994",
+                        "type": "tv-series",
+                        "title": "Друзья",
+                        "title_alternative": "friends",
+                        "tagline": "«Everybody needs Friends!»",
+                        "description": "Главные герои  шестеро друзей  Рейчел, Моника, Фиби, Джоуи, Чендлер и Росс. Три девушки и три парня, которые дружат, живут по соседству, вместе убивают время и противостоят жестокой реальности, делятся своими секретами и иногда очень сильно влюбляются.",
+                        "year": 1994,
+                        "poster": "images.kinopoisk.cloud/posters/77044.jpg",
+                        "trailer": "https://www.youtube.com/embed/3FIqstdDldY",
+                        "age": "зрителям, достигшим 12 лет",
+                        "actors": [
+                            "Дженнифер Энистон",
+                            "Кортни Кокс",
+                            "Лиза Кудроу",
+                            "Мэтт ЛеБлан",
+                            "Мэттью Перри",
+                            "Дэвид Швиммер",
+                            "Джеймс Майкл Тайлер",
+                            "Эллиотт Гулд",
+                            "Кристина Пиклз",
+                            "Мэгги Уилер"
+                        ],
+                        "countries": [
+                            "США"
+                        ],
+                        "genres": [
+                            "Комедия",
+                            "Мелодрама"
+                        ],
+                        "directors": [
+                            "Гари Хэлворсон",
+                            "Кевин Брайт",
+                            "Майкл Лембек"
+                        ],
+                        "screenwriters": [
+                            "Дэвид Крэйн",
+                            "Марта Кауффман",
+                            "Тед Коэн"
+                        ],
+                        "producers": [
+                            "Кевин Брайт",
+                            "Дэвид Крэйн",
+                            "Марта Кауффман"
+                        ],
+                        "operators": [
+                            "Микель Нейерс",
+                            "Ник МакЛин",
+                            "Ричард Хиссонг"
+                        ],
+                        "composers": [
+                            "Майкл Склофф",
+                            "Элли Уиллис"
+                        ],
+                        "painters": [
+                            "Джон Шаффнер",
+                            "Адам Шорт",
+                            "Джо Стюарт"
+                        ],
+                        "editors": [
+                            "Стивен Прайм",
+                            "Дэвид Хелфанд",
+                            "Энди Зэлл"
+                        ],
+                        "budget": null,
+                        "rating_kinopoisk": "9.3",
+                        "rating_imdb": "8.9",
+                        "kinopoisk_votes": null,
+                        "imdb_votes": null,
+                        "fees_world": null,
+                        "fees_russia": null,
+                        "premiere_world": "22 сентября 1994",
+                        "premiere_russia": null,
+                        "frames": [
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409955.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409956.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409957.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409958.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409959.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409962.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409964.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409965.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409966.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409967.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409968.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/0/9/kinopoisk.ru-Friends-409969.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410091.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410094.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410097.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410102.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410103.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410105.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410106.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410108.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410109.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410111.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410112.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410113.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410114.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410115.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410117.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410120.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410122.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410123.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410126.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410128.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410129.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/1/0/kinopoisk.ru-Friends-410131.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/6/3/kinopoisk.ru-Friends-463144.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/6/3/kinopoisk.ru-Friends-463145.jpg",
+                            "https://st.kp.yandex.net/im/kadr/4/6/3/kinopoisk.ru-Friends-463146.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590062.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590063.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590064.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590065.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590067.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590068.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590069.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590070.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590071.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590072.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590073.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590074.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590075.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590076.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590077.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590078.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590079.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590080.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590081.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590082.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590083.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590084.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590085.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590086.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590087.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590088.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590089.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590090.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590091.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590092.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590093.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590094.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590095.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590096.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590097.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590098.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590099.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590100.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590101.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590102.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590103.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590104.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590105.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590106.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590107.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590108.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590109.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590110.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590111.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590112.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590113.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590114.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590116.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590118.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590119.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590120.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590121.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590122.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590123.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590124.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590125.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590126.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590127.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590128.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590129.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590130.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590131.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590132.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590133.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590134.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590135.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590136.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590137.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590138.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590139.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590140.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590141.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590142.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590143.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590144.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590145.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590146.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590147.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590148.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590149.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590150.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590151.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590152.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590153.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590154.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590155.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590156.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590157.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590158.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590159.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590160.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590161.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590162.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590163.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590164.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590165.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/0/kinopoisk.ru-Friends-590166.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591314.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591315.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591316.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591317.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591319.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591320.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591321.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591322.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591323.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591333.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591334.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591335.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591336.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591338.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591339.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591340.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591341.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591342.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591343.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591344.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591345.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591346.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591356.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591357.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591358.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591359.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591360.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591361.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591362.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591363.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591364.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591365.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591366.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591367.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591368.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591369.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591373.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591374.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591375.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591377.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591378.jpg",
+                            "https://st.kp.yandex.net/im/kadr/5/9/1/kinopoisk.ru-Friends-591379.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602139.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602140.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602141.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602142.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602143.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602144.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602145.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602146.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602147.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602148.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602149.jpg",
+                            "https://st.kp.yandex.net/im/kadr/6/0/2/kinopoisk.ru-Friends-602150.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026877.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026878.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026879.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026880.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026881.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026882.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026883.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026884.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026885.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026886.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026887.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026888.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026889.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026890.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026891.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026892.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1026893.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028384.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028385.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028386.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028387.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028388.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028389.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028390.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028392.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028393.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/2/kinopoisk.ru-Friends-1028394.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/5/kinopoisk.ru-Friends-1056435.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/0/5/kinopoisk.ru-Friends-1056436.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033093.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033094.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033095.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033096.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033097.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033098.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033099.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033100.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033101.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033102.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033103.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033104.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2033105.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036541.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036542.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036543.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036544.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036545.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036546.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036547.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036548.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036549.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036550.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036551.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036552.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036553.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036554.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2036555.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039905.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039906.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039907.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039908.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039909.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039910.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039911.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039912.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039913.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039914.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039915.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039916.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039917.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039918.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/3/kinopoisk.ru-Friends-2039919.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044453.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044454.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044455.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044456.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044457.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044458.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044459.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044460.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044461.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044462.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044463.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044464.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044465.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044466.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044467.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044468.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044469.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044470.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044471.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044472.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044473.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044474.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044475.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044476.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2044477.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047014.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047015.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047016.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047017.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047018.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047019.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047020.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047021.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047022.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047023.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047024.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047025.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047026.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047027.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047028.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047029.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047030.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047031.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047032.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047033.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047034.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047035.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047036.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/0/4/kinopoisk.ru-Friends-2047037.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/5/4/kinopoisk.ru-Friends-2542770.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/5/4/kinopoisk.ru-Friends-2542771.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/5/4/kinopoisk.ru-Friends-2542772.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/5/4/kinopoisk.ru-Friends-2542773.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/9/6/kinopoisk.ru-Friends-2965814.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/9/6/kinopoisk.ru-Friends-2965815.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/9/6/kinopoisk.ru-Friends-2965816.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/9/6/kinopoisk.ru-Friends-2965817.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/9/6/kinopoisk.ru-Friends-2965818.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/9/6/kinopoisk.ru-Friends-2965819.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/0/2/kinopoisk.ru-Friends-3023603.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/0/2/kinopoisk.ru-Friends-3023604.jpg"
+                        ],
+                        "screenshots": null,
+                        "seasons": 10,
+                        "videocdn": {
+                            "url": [
+                                "/serial/a49a6976dd130f9d6f79b3a6ac99d0030c51ac4b722005bd701d5314d0516bed/iframe"
+                            ],
+                            "quality": [
+                                "WEBRip",
+                                ""
+                            ],
+                            "duration": null,
+                            "voice": [
+                                "Paramount Comedy",
+                                "Субтитры"
+                            ],
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "hdvb": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "collapse": {
+                            "url": [
+                                "/embed/movie/355"
+                            ],
+                            "quality": [
+                                "HD (720p)"
+                            ],
+                            "duration": [
+                                "22 мин."
+                            ],
+                            "voice": [
+                                "Paramount comedy",
+                                "РТР",
+                                "1+1",
+                                "Eng.Original",
+                                "СТС"
+                            ],
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "kodik": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        }
+                    },
+                    {
+                        "id": 37100,
+                        "id_kinopoisk": 674243,
+                        "url": "586175-schastlivye-lyudi-2008",
+                        "type": "tv-series",
+                        "title": "Счастливые люди",
+                        "title_alternative": "people",
+                        "tagline": null,
+                        "description": "Документальный фильм о трудах и днях охотников и их семей из посёлка Бахта в среднем течении реки Енисей в течение целого года.",
+                        "year": 2008,
+                        "poster": "//images.kinopoisk.cloud/posters/674243.jpg",
+                        "trailer": "https://www.youtube.com/embed/bITElb4l_SY",
+                        "age": null,
+                        "actors": null,
+                        "countries": [
+                            "Россия"
+                        ],
+                        "genres": [
+                            "Документальный"
+                        ],
+                        "directors": [
+                            "Дмитрий Васюков"
+                        ],
+                        "screenwriters": [
+                            "Дмитрий Васюков"
+                        ],
+                        "producers": [
+                            "Владимир Перепелкин"
+                        ],
+                        "operators": null,
+                        "composers": [
+                            "Александр Войтинский"
+                        ],
+                        "painters": null,
+                        "editors": null,
+                        "budget": null,
+                        "rating_kinopoisk": "9.211",
+                        "rating_imdb": "8.8",
+                        "kinopoisk_votes": "5722",
+                        "imdb_votes": "78",
+                        "fees_world": null,
+                        "fees_russia": null,
+                        "premiere_world": null,
+                        "premiere_russia": null,
+                        "frames": null,
+                        "screenshots": [
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965265.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965266.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965267.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965268.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965269.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965270.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965271.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965272.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965273.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965274.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965275.jpg",
+                            "https://st.kp.yandex.net/im/kadr/1/9/6/kinopoisk.ru-Happy-People-1965276.jpg"
+                        ],
+                        "seasons": 1,
+                        "videocdn": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": [
+                                "0"
+                            ],
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "hdvb": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "collapse": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "kodik": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        }
+                    },
+                    {
+                        "id": 22312,
+                        "id_kinopoisk": 972889,
+                        "url": "454928-badcomedian-2011",
+                        "type": "tv-series",
+                        "title": "badComedian",
+                        "title_alternative": "badComedian",
+                        "tagline": null,
+                        "description": "Юмористическое шоу, высмеивающее плохое кино. От российских «шедевров», до американской клюквы. А также серьёзные обзоры и переводы.",
+                        "year": 2011,
+                        "poster": "//images.kinopoisk.cloud/posters/972889.jpg",
+                        "trailer": "https://www.youtube.com/embed/vVU8PXzfymg",
+                        "age": "зрителям, достигшим 18 лет",
+                        "actors": [
+                            "Евгений Баженов",
+                            "Руслан Габидуллин",
+                            "Пётр Иващенко"
+                        ],
+                        "countries": [
+                            "Россия"
+                        ],
+                        "genres": [
+                            "Комедия"
+                        ],
+                        "directors": [
+                            "Евгений Баженов"
+                        ],
+                        "screenwriters": [
+                            "Евгений Баженов"
+                        ],
+                        "producers": [
+                            "Евгений Баженов"
+                        ],
+                        "operators": null,
+                        "composers": null,
+                        "painters": null,
+                        "editors": [
+                            "Евгений Баженов"
+                        ],
+                        "budget": "1руб.",
+                        "rating_kinopoisk": "9.207",
+                        "rating_imdb": "7.7",
+                        "kinopoisk_votes": "27501",
+                        "imdb_votes": "620",
+                        "fees_world": null,
+                        "fees_russia": null,
+                        "premiere_world": null,
+                        "premiere_russia": null,
+                        "frames": null,
+                        "screenshots": [
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771024.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771025.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771026.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771027.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771028.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771029.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771030.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771031.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771032.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771033.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771034.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771035.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771036.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771037.jpg",
+                            "https://st.kp.yandex.net/im/kadr/2/7/7/kinopoisk.ru-BadComedian-2771038.jpg"
+                        ],
+                        "seasons": 1,
+                        "videocdn": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": [
+                                "0"
+                            ],
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "hdvb": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "collapse": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "kodik": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        }
+                    },
+                    {
+                        "id": 35711,
+                        "id_kinopoisk": 1007472,
+                        "url": "5823-planeta-zemlya-2-2016",
+                        "type": "tv-series",
+                        "title": "Планета Земля 2",
+                        "title_alternative": "planet",
+                        "tagline": null,
+                        "description": "Дэвид Аттенборо демонстрирует невероятные по красоте пейзажи, заповедные и малоизученные уголки Земли.",
+                        "year": 2016,
+                        "poster": "images.kinopoisk.cloud/posters/1007472.jpg",
+                        "trailer": "https://www.youtube.com/embed/c8aFcHFu8QM",
+                        "age": null,
+                        "actors": [
+                            "Дэвид Аттенборо"
+                        ],
+                        "countries": [
+                            "Великобритания"
+                        ],
+                        "genres": [
+                            "Документальный"
+                        ],
+                        "directors": [
+                            "Джастин Андерсон",
+                            "Ed Charles",
+                            "Фреди Девас"
+                        ],
+                        "screenwriters": null,
+                        "producers": [
+                            "Ванесса Берловиц",
+                            "Джеймс Брикелл",
+                            "Джонатан Килинг"
+                        ],
+                        "operators": [
+                            "Матео Уиллис",
+                            "Джон Шир",
+                            "Джонатан Джонс"
+                        ],
+                        "composers": [
+                            "Джаша Клебе",
+                            "Джейкоб Ши",
+                            "Ханс Циммер"
+                        ],
+                        "painters": null,
+                        "editors": [
+                            "Найджел Бак",
+                            "Дэвид Пирс",
+                            "Ник Карлине"
+                        ],
+                        "budget": null,
+                        "rating_kinopoisk": "9.2",
+                        "rating_imdb": "9.5",
+                        "kinopoisk_votes": null,
+                        "imdb_votes": null,
+                        "fees_world": null,
+                        "fees_russia": null,
+                        "premiere_world": "6 ноября 2016",
+                        "premiere_russia": null,
+                        "frames": [
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338390.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338391.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338392.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338393.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338394.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338395.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338396.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338397.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338398.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338399.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338400.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338401.jpg",
+                            "https://st.kp.yandex.net/im/kadr/3/3/3/kinopoisk.ru-Planet-Earth-II-3338402.jpg"
+                        ],
+                        "screenshots": null,
+                        "seasons": 1,
+                        "videocdn": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "hdvb": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "collapse": {
+                            "url": [
+                                "/embed/movie/3583"
+                            ],
+                            "quality": [
+                                "HD (720p)"
+                            ],
+                            "duration": null,
+                            "voice": [
+                                "Jimmy J",
+                                "Рус. Люб. двухголосый",
+                                "Укр. Одноголосий",
+                                "Eng.Original"
+                            ],
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "kodik": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        }
+                    },
+                    {
+                        "id": 36664,
+                        "id_kinopoisk": 1073233,
+                        "url": "173131-golubaya-planeta-2-2017",
+                        "type": "tv-series",
+                        "title": "Голубая планета 2",
+                        "title_alternative": "blue",
+                        "tagline": "«Take a deep breath»",
+                        "description": "Несмотря на то, что вода занимает две трети планеты, о глубинах океана мы знаем меньше, чем о поверхности Луны. Сериал открывает всю красоту и очарование океана, поражая воображение многообразием его обитателей. Использование новейших технологий и уникального оборудования для глубоководных съёмок раскроют зрителю самые сокровенные тайны мирового океана и позволят увидеть редчайшие кадры из жизни его обитателей, о существовании которых ранее можно было только догадываться.",
+                        "year": 2017,
+                        "poster": "images.kinopoisk.cloud/posters/1073233.jpg",
+                        "trailer": null,
+                        "age": "зрителям, достигшим 12 лет",
+                        "actors": [
+                            "Дэвид Аттенборо",
+                            "Питер Дрост",
+                            "Роджер Муннс",
+                            "Франсуа Морель"
+                        ],
+                        "countries": [
+                            "Великобритания"
+                        ],
+                        "genres": [
+                            "Документальный"
+                        ],
+                        "directors": null,
+                        "screenwriters": null,
+                        "producers": [
+                            "Марк Браунлоу",
+                            "Джеймс Хонейборн",
+                            "Jennifer Hile"
+                        ],
+                        "operators": [
+                            "Роджер Хоррокс",
+                            "Тед Гиффордс",
+                            "Роджер Муннс"
+                        ],
+                        "composers": [
+                            "Дэйв Флеминг",
+                            "Джейкоб Ши",
+                            "Ханс Циммер"
+                        ],
+                        "painters": null,
+                        "editors": [
+                            "Мэтт Мич",
+                            "Найджел Бак"
+                        ],
+                        "budget": null,
+                        "rating_kinopoisk": "9.183",
+                        "rating_imdb": "9.4",
+                        "kinopoisk_votes": "1016",
+                        "imdb_votes": "27010",
+                        "fees_world": "$205531",
+                        "fees_russia": null,
+                        "premiere_world": "29 октября 2017",
+                        "premiere_russia": null,
+                        "frames": null,
+                        "screenshots": null,
+                        "seasons": 1,
+                        "videocdn": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": [
+                                "0"
+                            ],
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "hdvb": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "collapse": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        },
+                        "kodik": {
+                            "url": null,
+                            "quality": null,
+                            "duration": null,
+                            "voice": null,
+                            "seasons": null,
+                            "episodes": null
+                        }
+                    }
+                ],
+                "pagination": {
+                    "current_page": "https://api.kinopoisk.cloud/tv-series/all/page/1/token/de380662280b2ebdf07f1bac4f221ba3",
+                    "end_page": "https://api.kinopoisk.cloud/tv-series/all/page/5086/token/de380662280b2ebdf07f1bac4f221ba3",
+                    "total_pages": 5086
+                }
+            }
+
+        );
+    };
+
+
